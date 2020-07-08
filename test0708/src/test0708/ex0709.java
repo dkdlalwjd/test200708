@@ -6,6 +6,8 @@ public class ex0709 {
 		// 
 		
 		System.out.println("깃허브 실습중");
+		
+		int i = 0;
 
 	}
 
