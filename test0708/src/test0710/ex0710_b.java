@@ -11,7 +11,7 @@ public class ex0710_b {
 		System.out.println("Á¤·ÄÈÄ : ");
 		
 		for(int i=0; i<arr.length; i++) {
-		System.out.print(num[]);	
+			
 		}
 		
 		

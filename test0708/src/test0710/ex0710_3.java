@@ -9,10 +9,8 @@ public class ex0710_3 {
 		//최종값은 {1,2,3,4,5}-> Bubble정렬 이라고도함
 		//값을 두개만 있는 배열의 위치만 바꺼보기, 그리고 추가
 		System.out.println("[오름차순 정렬]");
-
 		int [] num = {3,2,1,5,4};
 		int [] num2 = {3,2,1,5,4};
-
 		int temp = 0;//자리바꿈할때 임시저장용
 		
 		/*
@@ -22,30 +20,25 @@ public class ex0710_3 {
 		 * 4회차반복 : 3,4
 		 */
 		
-		
 		System.out.println("정렬전 : "+num[0]+" "+num[1]+" "+num[2]+" "+num[3]+" "+num[4]);
-		
+		System.out.println("내림차순 : ");
+
 			for (int i=0; i<num.length; i++) {
 				for(int j=i+1; j<num.length; j++) {
-					if(num[i]>num[i]) {
+					//아래 괄호만 바꾸면 내림차순 오름차순임.
+					if(num[i]<num[j]) {
 						temp=num[j];
-						num[i] = num[j];
-						num[j] = temp;
+						num[j] = num[i];
+						num[i] = temp;
 					}
 						}
 					}
 					for(int i=0; i<num.length; i++)	{
 						System.out.print(num[i]);
 				
-				
-				
-				Arrays.Sort(num2);
-				for
 			}//for 괄호
 			
-			
-			
-				
+		
 		}//메인메소드 괄호
 	}//큰메소드 괄호
 
