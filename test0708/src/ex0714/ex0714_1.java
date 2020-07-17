@@ -19,7 +19,6 @@ public class ex0714_1 {
 					max=num[i];
 				}
 		}
-
 			System.out.println("¡ÚÃÖ´ñ°ª : "+max);
 	}}
 	
